@@ -1,0 +1,6 @@
+<template name="foot">
+    <view class="commont-foot">
+        <view class="icon-foot">
+        </view>
+    </view>
+</template>
