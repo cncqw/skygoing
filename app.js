@@ -70,7 +70,7 @@ App({
         _linkTo: null
     },
     apiUrl: function(e) {
-      return "https://wx.skygoing.com/mobile/public/index.php/api/wx/" + e;
+      return "localhost/mobile/public/api/wx/" + e;
     },
     shwomessage: function(e) {
         var t = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : 1e3, o = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "warn";
